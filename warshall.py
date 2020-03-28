@@ -21,4 +21,16 @@ graph = [
     [5, inf, 3, 0]
 ]
 
+print("""
+USERINPUT IS:
+
+    [0, inf, inf, -3],
+    [inf, 0, inf, 8],
+    [inf, 4, 0, -2],
+    [5, inf, 3, 0]
+
+	""")
+
+
+print("OUTPUT IS:\n")
 print(floyd_warshall(graph))
